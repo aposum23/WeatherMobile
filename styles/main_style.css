@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+.weather {
+    width:100%;
+    height: 100vh;
+    background-color: #67b1e2;
+}
+
+.weather-main {
+    border-bottom: .2rem solid #000;
+    background-color: #fff;
+}
+
+/*Weather icon propreties*/
+.weather-main-icon {
+    width:50%;
+    margin: auto;
+}
+
+.weather-main-icon img {
+    width:100%;
+}
+
+/*Temperature text propreties*/
+.weather-main-temperature {
+    width: 50%;
+    font-size: 10rem;
+    margin: auto;
+}
+
+.weather-main-temperature p {
+    margin: .5rem 0rem;
+    text-align: center;
+}
+
+/*Weather info propreties*/
+.weather-info {
+    width: 95%;
+    margin: auto;
+}
+
+/*Wind info propreties*/
+/*Speed*/
+.weather-info--air-speed {
+    width: 100%;
+    display: inline-flex;
+    border-bottom: .1rem solid #000;
+    font-size: 3rem;
+}
+
+.weather-info--air-speed .speed{
+    margin-left: auto;
+}
+
+.weather-info--air-speed img{
+    margin: 0rem 1rem;
+}
+
+/*Direction*/
+.weather-info--air-direction {
+    width: 100%;
+    display: inline-flex;
+    border-bottom: .1rem solid #000;
+    font-size: 3rem;
+}
+
+.weather-info--air-direction .direction{
+    margin-left: auto;
+}
+
+.weather-info--air-direction img{
+    margin: 0rem 1rem;
+}
